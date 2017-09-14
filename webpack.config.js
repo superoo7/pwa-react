@@ -1,13 +1,15 @@
 const path = require('path')
+
 const HtmlWebpackPlugin = require('html-webpack-plugin')
 const DashboardPlugin = require('webpack-dashboard/plugin')
-const srcDir = path.resolve(__dirname, 'build');
+const ExtractTextPlugin = require('extract-text-webpack-plugin');
+
+const srcDir = path.resolve(__dirname, 'src')
 
 const config = {
-  entry: './src/index.js',
+  entry: `${srcDir}/index.js`,
   output: {
-    filename: 'bundle.js',
-    path: srcDir
+    filename: 'bundle.js'
   },
   module: {
     rules: [
@@ -19,16 +21,24 @@ const config = {
       },
       {
         test: /\.js$/,
-        loader: 'babel-loader',
+        use: 'babel-loader',
         exclude: /node_modules/
+      },
+      {
+        test: /\.css$/,
+        use: ExtractTextPlugin.extract({
+              use: "css-loader?modules,localIdentName='[name]-[local]-[hash:base64:6]',camelCase"
+        })
+
       }
     ]
   },
   plugins: [
     new HtmlWebpackPlugin({
-      template: `src/index.html`
+      template: `${srcDir}/index.html`
     }),
-    new DashboardPlugin()
+    new DashboardPlugin(),
+    new ExtractTextPlugin('style.css')
   ]
 }
 
