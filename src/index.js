@@ -1,12 +1,17 @@
 import React, { Component } from 'react'
 import { render } from 'react-dom'
 
-class App extends Component {
+//
+import App from './App'
+
+class Main extends Component {
   render () {
     return (
-      <div>Test</div>
+      <div>
+        <App />
+      </div>
     )
   }
 }
 
-render(<App />, document.getElementById('app'))
+render(<Main />, document.getElementById('app'))
