@@ -1,0 +1,22 @@
+{
+  "posts": [
+    {
+      "title": "My experience with EE 1",
+      "slug": "my-experience-with-ee-1",
+      "excerpt": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed",
+      "content": "do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolor"
+    },
+    {
+      "title": "My experience with EE 2",
+      "slug": "my-experience-with-ee-2",
+      "excerpt": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed",
+      "content": "do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolor"
+    },
+    {
+      "title": "My experience with EE 3",
+      "slug": "my-experience-with-ee-3",
+      "excerpt": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed",
+      "content": "do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolor"
+    }
+  ]
+}

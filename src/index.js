@@ -8,9 +8,7 @@ import App from './App'
 class Main extends Component {
   render () {
     return (
-      <div>
-        <App />
-      </div>
+      <App />
     )
   }
 }

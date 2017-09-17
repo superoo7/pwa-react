@@ -1,0 +1,49 @@
+.header {
+  background: linear-gradient(to right, #24A3CF, #3650A0);
+}
+
+.container {
+  /* Make the split to edge of each side */
+  display: flex;
+  justify-content: space-between;
+  max-width: var(--site-width);
+  margin: 0 auto;
+}
+
+.title {
+  padding: 1rem 0;
+  color: #ffffff;
+  font-family: sans-serif;
+
+  font-style: italic;
+  font-size: 3.0rem;
+  user-select: none;
+  cursor: pointer;
+
+}
+
+.list {
+  display: flex;
+  align-items: center;
+  height: 100%;
+
+}
+
+.list-item {
+  margin-right: 1rem;
+  user-select: none;
+  cursor: pointer;
+}
+
+.link {
+  color: #ffffff;
+  font-family: sans-serif;
+  text-transform: uppercase;
+  font-weight: bold;
+  font-size: 2em;
+}
+
+.link:hover,
+.link:focus {
+  color: #cccccc;
+}
