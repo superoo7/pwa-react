@@ -7,7 +7,7 @@
   "license": "MIT",
   "scripts": {
     "start": "webpack-dashboard -- webpack-dev-server",
-    "browser": "open -a \"Google Chrome\" http://localhost:8080",
+    "build": "webpack --config=webpack.prod.js -p",
     "test": "jest"
   },
   "devDependencies": {
