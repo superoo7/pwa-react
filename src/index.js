@@ -3,7 +3,7 @@ import { render } from 'react-dom'
 import 'normalize.css'
 
 //
-import App from './App'
+import App from './components/App/App'
 
 class Main extends Component {
   render () {

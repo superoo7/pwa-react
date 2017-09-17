@@ -1,0 +1,43 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Home component should render as expected 1`] = `
+<div>
+  <Post
+    content="do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolor"
+    excerpt="Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed"
+    key="my-experience-with-ee-1"
+    slug="my-experience-with-ee-1"
+    title="My experience with EE 1"
+    titleLink={true}
+  />
+</div>
+`;
+
+exports[`Home component should render as expected 2`] = `
+<div>
+  <Post
+    content="do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolor"
+    excerpt="Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed"
+    key="my-experience-with-ee-1"
+    slug="my-experience-with-ee-1"
+    title="My experience with EE 1"
+    titleLink={true}
+  />
+  <Post
+    content="do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolor"
+    excerpt="Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed"
+    key="my-experience-with-ee-1"
+    slug="my-experience-with-ee-1"
+    title="My experience with EE 1"
+    titleLink={true}
+  />
+</div>
+`;
+
+exports[`Home component should render as expected 3`] = `
+<div>
+  <p>
+    Awaiting post
+  </p>
+</div>
+`;

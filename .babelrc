@@ -1,4 +1,8 @@
 {
   "plugins": ["transform-react-jsx"],
-  "presets": ["env"]
+  "env": {
+    "test": {
+      "plugins": ["babel-plugin-transform-es2015-modules-commonjs"]
+    }
+  }
 }
