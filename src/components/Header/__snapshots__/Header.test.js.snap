@@ -19,22 +19,24 @@ exports[`Header component should render as expected 1`] = `
         <li
           className="listItem"
         >
-          <a
+          <Link
             className="link"
-            href="#"
+            replace={false}
+            to="/"
           >
             Posts
-          </a>
+          </Link>
         </li>
         <li
           className="listItem"
         >
-          <a
+          <Link
             className="link"
-            href="#"
+            replace={false}
+            to="/about"
           >
             About
-          </a>
+          </Link>
         </li>
         <li
           className="listItem"
